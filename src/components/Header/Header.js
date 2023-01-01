@@ -24,7 +24,7 @@ const Header = () => {
                             <Link to="/signup">Sign Up</Link>
                         </>
                 }
-                <span>{user?.email}</span>
+                <span className='user'>{user?.email}</span>
             </div>
         </nav>
     );
